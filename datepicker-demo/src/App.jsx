@@ -2,7 +2,6 @@ import DatePicker from 'react-datepicker'
 import { useNavigate } from 'react-router-dom';
 
 import "react-datepicker/dist/react-datepicker.css";
-import './App.css'
 
 function App() {
   
@@ -13,7 +12,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div>
         <DatePicker selected={new Date()} onChange={onChange}/>
     </div>
   )
